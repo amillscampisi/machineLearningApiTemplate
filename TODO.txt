@@ -1,6 +1,9 @@
-* Figure out how to have all the model files in the model zoo foler
+* Figure out how to have all the model files in the model zoo folder
     * API
     * Predict, response, request module(s)
     * Tests
     * Adding model to model loader class
     # schema
+
+* Add a toy model
+* Add a model loading function

@@ -9,7 +9,7 @@ class RequestInputSchema(Schema):
     In this example you can supply a bedroom and bathroom count and the
     list start and end dates and get an estimation of the homes value.
 
-    This validcation schema also demonstrates custom validation functions.
+    This validation schema also demonstrates custom validation functions.
     """
     bedrooms = fields.Float(required=True, validate=Range(min=0, max=10, max_inclusive=True))
     bathrooms = fields.Float(required=True)
