@@ -1,0 +1,5 @@
+* Figure out how to have all the model files in the model zoo foler
+    * API
+    * Predict, response, request module(s)
+    * Tests
+    * Adding model to model loader class
